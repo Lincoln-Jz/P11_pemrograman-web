@@ -1,0 +1,113 @@
+/*pengaturan umum*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: azure;
+    color:black
+}
+/*header*/
+header{
+    background-color: rgb(42, 42, 42);
+    color:aliceblue;
+    text-align: center;
+    padding: 2%;
+}
+header h1{
+    margin: 0 0 8px;
+}
+
+/*nav*/
+nav{
+    background-color: aqua;
+    text-align: center;
+    padding: 7px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+/*konten utama*/
+main {
+    max-width: 1100px;
+    margin: 25px auto;   /* auto = rata tengah horizontal */
+    padding: 0 25px;
+}
+
+/*banner*/
+.banner {
+    background-color:cornflowerblue;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+/*tombol*/
+.tombol{
+    display: inline;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 5px;
+    border-radius: 7px;
+
+}
+
+.tombol:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+/*daftar produk*/
+.daftar-produk{
+    display: grid;
+    grid-template-columns : repeat(3,1fr);
+    gap: 20px;
+}
+
+.produk{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 8px;
+}
+
+.harga {
+    color: blue;
+    font-weight: bold;
+}
+
+.produk button{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produk button:hover{
+    background-color: black;
+
+}
+
+/*tentang dan kontal*/
+.tentang,
+.kontak {
+    background-color: blue;
+    padding: 25px;
+    color: aliceblue;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+/*footer*/
+footer{
+    background-color: aquamarine;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
